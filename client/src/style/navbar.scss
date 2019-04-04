@@ -1,0 +1,23 @@
+.Navbar {
+	background-color: $navbar-color;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	.NavbarContent {	
+		flex: 0 0 70%;
+		display: flex;		
+	
+		input { 
+			font-size: 18px;
+			outline: 0;
+			border: none;
+			flex: 1 1 auto;
+			color: $light-text-color;
+			padding: 8px 12px;
+			border-radius: $border-radius 0px 0px $border-radius;
+		}
+	}
+	
+}

@@ -1,0 +1,33 @@
+
+.ListItem { 	
+	img.Thumbnail {
+		height: 180px;
+		width: 180px;
+		margin-right: 16px;
+	}
+	
+	.ItemLink {
+		flex: 1 1 auto;
+		
+		h2 {
+			font-weight: normal;
+			margin-bottom: 32px;
+		}
+		
+		.Icon{
+			margin-left: 8px;
+		}
+		
+		p{
+			margin: 0px;
+			font-size: 18px;
+			text-transform: capitalize;
+		}
+	 }
+	 
+	 .State {
+		margin-top: 16px;
+		width: 15%;
+		font-size: 12px;
+	 }
+}

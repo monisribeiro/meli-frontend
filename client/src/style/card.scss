@@ -1,0 +1,14 @@
+.Card {	
+	display: flex;
+	justify-content: center;
+	margin: 16px 0px;
+	flex: 1 1 auto;
+	
+	.CardContent {
+		flex: 0 0 70%;
+		background-color: white; 
+		border-radius: $border-radius;
+		display: flex;
+		flex-direction: column;
+	}
+}

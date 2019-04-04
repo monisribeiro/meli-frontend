@@ -1,0 +1,24 @@
+.ButtonIcon{
+	border: none;
+	background-color: $button-icon-bg;
+	padding: 9px 12px;
+	border-radius: 0px $border-radius $border-radius 0px;
+	
+	.Icon {
+		height: 16px;
+	}
+	
+	&:focus, &:visited {
+		border: none;
+		outline: 0;
+	}
+}
+
+.ButtonPrimary {
+	border: none;
+	background-color: $button-primary-bg;
+	padding: 9px 12px;
+	text-align: center;
+	border-radius: $border-radius;
+	color: white;
+}

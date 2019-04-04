@@ -1,0 +1,40 @@
+.ItemDetails {
+	display: flex;
+	padding: 32px;
+	
+	> div {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	img{
+		width: 680px;
+		margin: 16px 16px 16px 0px;
+		border-radius: 4px;
+	}
+	
+	.Options {
+		flex: 0 0 auto;
+		width: calc(100% - 680px);
+		margin-right: 32px;
+		p {
+			margin-bottom: 16px;
+			margin-top: 0px;
+			text-transform: capitalize;
+		}
+		h2 { 
+			margin-top: 0px;
+			margin-bottom: 32px;
+			font-size: 24px;
+		}
+		h1{
+			font-size: 46px;
+			margin-top: 0px;
+			margin-bottom: 32px;
+		}
+		
+		button {
+			width: 100%;
+		}	
+	}
+}
