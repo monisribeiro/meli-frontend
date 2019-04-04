@@ -41,9 +41,6 @@ class ItemsDescription extends Component {
 		if (this.state.item) { 
 			return (
 				<div className="ItemDescription">
-					<div className="Categories">
-						Categories
-					</div>
 					<Card>
 						{this.html}
 					</Card>

@@ -40,7 +40,7 @@ class SearchResults extends Component {
 					);
 				});
 			  }
-			  this.forceUpdate();
+			  this.props.updateCategories(this.results.categories);
 		  })
 		  .catch(err => console.log(err));
 	}
@@ -57,9 +57,6 @@ class SearchResults extends Component {
 		if(this.searchResultsHtml !== '') {
 			return (
 				<div className="SearchResults">
-					<div className="Categories">
-						{this.results.categories.join(' > ')}
-					</div>
 					<Card>
 						<ul className="List">
 							{this.searchResultsHtml}
